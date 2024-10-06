@@ -1,0 +1,108 @@
+:root {
+  --gray: "#6C6C6C";
+  --white: "#EEEEEE";
+  --black: "#2C2A2A";
+
+  --primary-font: "DM Sans", sans-serif;
+  --secondary-font: "DM Serif Display", serif;
+  --mono-font: "DM Mono", monospace;
+}
+
+h1, h2, h3 {
+  font-family: "DM Serif Display", serif;
+  color: var(--black);
+  margin-top: 4rem;
+}
+
+article {
+  font-family: "DM Sans", sans-serif;
+  color: var(--gray);
+  background-color: var(--white);
+  margin: 10vh auto;
+  width: min(90%, 600px);
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+#photo {
+  margin: 1rem 0;
+}
+
+.doodle-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+#doodles {
+  position: relative;
+  margin: 0 auto;
+  width: min(100%, 800px);
+  height: 100%;
+  background-image: url("./static/texture.png");
+  mix-blend-mode: hard-light;
+  pointer-events: none;
+  z-index: -1;
+  opacity: 0.2;
+}
+
+#doodles > #longcat {
+  position: absolute;
+  top: 0;
+  right: 50px;
+  max-width: 300px;
+}
+
+#doodles > #sparkle {
+  position: absolute;
+  top: -80px;
+  left: 30px;
+  max-width: 100px;
+}
+
+#doodles > #john {
+  position: absolute;
+  top: 480px;
+  left: 20px;
+  max-width: 100px;
+}
+
+#doodles > #swag {
+  position: absolute;
+  top: 440px;
+  right: 0;
+  max-width: 150px;
+}
+
+#doodles > #star {
+  position: absolute;
+  top: -50px;
+  right: 0;
+  max-width: 120px;
+}
+
+#doodles > #sun {
+  position: absolute;
+  top: 1150px;
+  right: 20px;
+  max-width: 170px;
+}
+
+#doodles > #plant {
+  position: absolute;
+  top: 800px;
+  left: 270px;
+  max-width: 100px;
+}
+
+img, iframe {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+#banner {
+  max-width: 200px;
+}

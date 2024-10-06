@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Playspace</title>
+  <link rel="icon" type="image/png" href="./static/icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Display:ital@0;1&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+  <div class="doodle-container">
+    <div id="doodles">
+      <img src="./static/doodles/cat.png" id="longcat" />
+      <img src="./static/doodles/sparkle.png" id="sparkle" />
+      <img src="./static/doodles/john.png" id="john" />
+      <img src="./static/doodles/swag.png" id="swag" />
+      <img src="./static/doodles/star.png" id="star" />
+      <img src="./static/doodles/sun.png" id="sun" />
+      <img src="./static/doodles/plant.png" id="plant" />
+    </div>
+  </div>
+  <article>
+    <img src="./static/banner.png" id="banner" />
+    <p>
+      Playspace is a get-together and coworking session for the kind, nerdy, and creative.
+    </p>
+    <p>
+      Come if you like to learn to draw from youtube videos, create websites for friends, play music, write blog posts,
+      compose songs, arrange flowers, research distributed systems — and everything in between. Playspace is for you to
+      explore what makes your world sparkle :)
+    </p>
+
+    <img src="./static/playspace-wide.png" id="photo" />
+
+    <h2>Philosophy</h2>
+    <p>
+      Play allows us to create and share in ways that competitive environments disincentivize. We're a group of people
+      that values exploring, learning, and building based on curiosity and intrinsic motivation.
+    </p>
+
+    <p>
+      Part of the magic of it is that it's a very high-trust environment where people can fully be themselves and be
+      comfortable exploring new facets of themselves. Although Playspace is open invite, we ask that you hold a respect
+      for the space and the people within it.
+      <b>
+        Everyone who attends Playspace is, in many ways, a host of the space as
+        well.
+      </b>
+    </p>
+
+    <h2>Sessions</h2>
+    <iframe src="https://lu.ma/embed/calendar/cal-WrTTBMGBVUcTaij/events?lt=light" width="600" height="250"
+      frameborder="0" style="border: 1px solid #bfcbda88; border-radius: 4px;" allowfullscreen="" aria-hidden="false"
+      tabindex="0"></iframe>
+
+    <h2>Project Scrapbook</h2>
+    <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450"
+      src="https://embed.figma.com/board/CxfCilgo4Y0218eauf6kkG/Playspace----Scrapbook?node-id=0-1&embed-host=share"
+      allowfullscreen></iframe>
+  </article>
+
+  <div id="cursor-chat-layer">
+    <input type="text" id="cursor-chat-box">
+  </div>
+  <script type="module">
+    import {initCursorChat} from 'https://esm.sh/cursor-chat'
+    initCursorChat("your-room-name-here")
+  </script>
+  <link rel="stylesheet" type="text/css" href="https://unpkg.com/cursor-chat/dist/style.css" />
+</body>
+
+</html>
