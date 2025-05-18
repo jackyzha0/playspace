@@ -1,0 +1,39 @@
+#doodles > #star {
+  position: absolute;
+  top: 150px;
+  right: 0;
+  max-width: 120px;
+}
+
+#doodles > #swag {
+  position: absolute;
+  top: 780px;
+  right: 0;
+  max-width: 150px;
+}
+
+#doodles > #sun {
+  position: absolute;
+  top: 1200px;
+  left: 0;
+  max-width: 170px;
+}
+
+#doodles > #plant {
+  position: absolute;
+  top: calc(100% - 70px);
+  left: 20px;
+  max-width: 100px;
+}
+
+#doodles > #longcat {
+  position: absolute;
+  top: calc(100% - 300px);
+  right: 50px;
+  max-width: 300px;
+}
+
+article {
+  margin-bottom: 0;
+  padding-bottom: 8em;
+}
