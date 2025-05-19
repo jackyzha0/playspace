@@ -49,7 +49,6 @@ body {
   mix-blend-mode: hard-light;
   z-index: -1;
   opacity: 0.2;
-  overflow: hidden;
 }
 
 #doodles > #longcat {
